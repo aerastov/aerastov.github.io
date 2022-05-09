@@ -1,0 +1,26 @@
+/* Make sure that padding behaves as expected */
+* {box-sizing:border-box}
+
+/* Container for skill bars */
+.container {
+  width: 100%; /* Full width */
+  background-color: #cecece;
+}
+
+.skills {
+  font-size: 0.5rem;
+  text-align: right; /* Right-align text */
+  padding-top: 2px; /* Add top padding */
+  padding-bottom: 2px; /* Add bottom padding */
+  color: white; /* White text color */
+}
+
+.python {width: 90%; background-color: #04aa6d83;}
+.django {width: 85%; background-color: #04aa6d83;}
+.sql {width: 80%; background-color: #ffbf008b;}
+.api {width: 82%; background-color: #04aa6d83;}
+.html {width: 90%; background-color: #04aa6d83;}
+.css {width: 80%; background-color: #ffbf008b;}
+.js {width: 70%; background-color: #ffbf008b;}
+.github {width: 70%; background-color: #f4433692;}
+.docker {width: 50%; background-color: #f4433692;}

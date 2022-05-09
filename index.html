@@ -1,16 +1,168 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
+  <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Document</title>
-</head>
-<body>
-<h1>Helloy world!</h1>
+    
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" media="screen and (max-width: 722px) " href="mobile.css"/>
+    <link rel="stylesheet" media="screen and (min-width: 723px) and (max-width: 1022px)" href="medium.css"/>
+    <link rel="stylesheet" media="screen and (min-width: 1023px)" href="large.css"/>
+    <link rel="stylesheet" href="collapsible.css">
+    <link rel="stylesheet" href="skillBar.css">
+    <title>ErastovResume</title>
+  </head>
+  <body>
+
+    <header>
+      <noscript>Ваш браузер не поддерживает JavaScript!</noscript>
+      <div>
+        <h1 class="surname">Ерастов Алексей</h1>
+        <p class="position">Fullstack разработчик на Python</p>
+      </div>
+    </header>
+
+    <main>
+
+      <section class="foto-contacts-skills">
+        <div class="item1">
+          <img src="media/foto.jpg" alt='моя фотография' width="250" height="250">
+        </div>
+        
+        <div class="item2">
+          <p>Дата рождения: 16.09.1977</p>
+          <p>Возраст: 44 года</p>
+          <p>Гражданство: Россия</p>
+          <p>Проживание: Заречье (Одинцовский р-н)</p>
+          <p>тел.: +7(915)184-З5-ЗO</p>
+          <ul class="contacts">
+            <li><a href="mailto:a.erastov@gmail.com"><b>Написать письмо</b></a></li>
+            <li><a href="https://t.me/Alexey_E_77"><b>Связаться в Telegram</b></a></li>
+            <li><a href="https://api.whatsapp.com/send/?phone=79151843530&text&app_absent=0"><b>Связаться по WhatsApp</b></a></li>
+            <li><a href="https://github.com/aerastov"><b>Страница на Github</b></a></li>
+          </ul>
+        </div>
+        
+        <div class="item3">
+          <p>Python</p>
+          <div class="container">
+            <div class="skills python">90%</div>
+          </div>
+          <p>Django</p>
+          <div class="container">
+            <div class="skills django">85%</div>
+          </div>
+          <p>SQL</p>
+          <div class="container">
+            <div class="skills sql">80%</div>
+          </div>
+          <p>Rest API</p>
+          <div class="container">
+            <div class="skills api">82%</div>
+          </div>
+          <p>HTML</p>
+          <div class="container">
+            <div class="skills html">90%</div>
+          </div>
+          <p>CSS</p>
+          <div class="container">
+            <div class="skills css">80%</div>
+          </div>
+          <p>JavaScript</p>
+          <div class="container">
+            <div class="skills js">70%</div>
+          </div>
+          <p>Github</p>
+          <div class="container">
+            <div class="skills github">70%</div>
+          </div>
+          <p>Docker</p>
+          <div class="container">
+            <div class="skills docker">50%</div>
+          </div>
+        </div>
+      </section>
+
+      <section class="about">
+        <div class="about-padding">
+          <h3>Обо мне:</h3>
+          <p>В настоящее время изучаю курс Fullstack разработчик на Python в компании SkillFactory</p>
+          <p>На курсе успешно пройдены этапы по изучению:</p>
+          <p>Python, Django, SQL, Rest API, Github</p>
+          <p>Изучаю:</p>
+          <p>JavaScript, css, Docker</p>
+          <hr>
+          <p>За время обучения выполнил на учебной платформе множество практических задач, 2 проекта на Django 
+            а так же еще один проект Django для себя - сайт для энтузиастов умного дома:</p>
+          <p><a href="https://home-update.ru"><b>www.home-update.ru</b></a></p>
+          <p>(проект уже рабочий, в данный момент наполняю контентом)</p>
+          <hr>
+          <p>Владею языком Yaml (использую для написания скриптов по автоматизации умного дома в Home Assistant)</p>
+          <p>За время перерыва в работе инсталлировал и запустил 2 системы умного дома с почти сотней устройств в каждом</p>
+          <p>Хочу сменить сменить сферу деятельности на IT специалиста.</p>
+          <hr>
+          <p><b>Учитывая недостаток опыта коммерческой разработки, готов рассмотреть стажировку на Ваших условиях!</b></p>
+        </div>
+      </section>
+
+      <section class="work-experience">
+        <button class="collapsible">Галерея</button>
+        <div class="gallery">
+          <img src="media/IMG_20220508.jpg" alt='моя фотография' height="250">
+          <img src="media/IMG_0508.jpg" alt='моя фотография' height="250">
+          <img src="media/IMG_20252.jpg" alt='моя фотография' height="250">
+          <video controls height="250">
+            <source src="media/08.05.2022.webm" type="video/webm">
+          </video>
+        </div>
+      </section>
 
 
-</body>
+      <section class="work-experience">
+        <div class="work-experience-padding">
+          <h3>Опыт работы до смены проффесиональной деятельности:</h3>
+          <hr>
+        </div>
+        <button class="collapsible">2015-2016<br>ООО «ИЭК Холдинг»</button>
+        <div class="content">
+          <h3>Руководитель направления (в отделе ассортиментной и ценовой политики департамента маркетинга)</h3>
+          <p>Управление ассортиментом, ценовой политикой и продвижением светотехнической продукции.</p>
+          <p>Разработка и вывод на рынок новинок, работа над оптимизацией себестоимости.</p>
+        </div>
+        
+        <button class="collapsible">2011-2015<br>ООО «Анатомия света»</button>
+        <div class="content">
+          <h3>Генеральный директор (свой бизнес)</h3>
+          <p>Полная организация работы компании (поиск и работа с клиентами, поиск и работа с поставщиками (производителями) 
+            светодиодных светильников, выполнение светотехнических проектов, организация логистики, создание и продвижение 
+            сайта компании, маркетинг, бухгалтерия)</p>
+        </div>
+        
+        <button class="collapsible">2011<br>ООО «Энергосберегающие Системы»</button>
+        <div class="content">
+          <h3>Менеджер по работе с ключевыми клиентами</h3>
+          <p>Развитие клиентской базы с «нуля», поиск клиентов, работа с «холодными» звонками, встречи, презентации.</p>
+          <p>Расчет светотехнических проектов (программа Dialux)</p>
+          <p>Исследование конъюнктуры рынка, поиск новых возможностей на рынке для развития бизнеса.</p>
+        </div>
+
+        <button class="collapsible">2006-2009<br>ООО «Рейнфорд»</button>
+        <div class="content">
+          <h3>Менеджер по работе с клиентами</h3>
+          <p>Развитие продаж компании с «нуля».</p>
+          <p>Разработка и контроль актуальности маркетинговых программ.</p>
+          <p>Работа над созданием и развитием сайта, каталогов и рекламных печатных материалов компании.</p>
+          <p>Работа с клиентами (активный поиск, подготовка договоров, осуществление и контроль отгрузок, 
+            отслеживание дебиторской задолженности). Работа с дистрибьюторами.</p>
+        </div>
+      </section>
+
+    </main>
+    <footer>
+      <a><b>Сделано в рамках домашнего задания SkillFactory для модуля E10.9</b></a>
+    </footer>
+
+    <script src="collapsible.js"></script>
+  </body>
 </html>

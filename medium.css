@@ -1,0 +1,9 @@
+.item1 {
+  flex-grow: 0;
+  padding: 5px;
+}
+.item2 {
+    padding: 20px 15px;
+    flex-grow: 1;
+    min-width: 300px;
+}

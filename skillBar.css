@@ -12,7 +12,7 @@
   text-align: right; /* Right-align text */
   padding-top: 2px; /* Add top padding */
   padding-bottom: 2px; /* Add bottom padding */
-  color: white; /* White text color */
+  color: #4d4d4d; /* White text color */
 }
 
 .python {width: 90%; background-color: #04aa6d83;}

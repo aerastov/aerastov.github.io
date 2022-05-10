@@ -2,7 +2,7 @@
     color: #000000;
     font-size: 10vw;
 }
-    .position {
+.position {
     font-size: 4vw;
     position: relative; 
     top: -0.6em;
@@ -15,8 +15,8 @@
 }
 
 .video {
-    height: 207px;
-  }
+    height: 150px;
+}
 
 .myself {
     padding: 20px 15px;

@@ -33,6 +33,7 @@ header {
     display: flex;
     flex-flow: row wrap;
     background-color: #c4c4c4;
+    min-width: 300px;
 }
 .contacts a{
     text-decoration: none;

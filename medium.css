@@ -13,6 +13,10 @@
   padding: 5px;
 }
 
+.video {
+  height: 250px;
+}
+
 .myself {
     padding: 20px 15px;
     flex-grow: 1;

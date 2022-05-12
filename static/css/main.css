@@ -1,0 +1,119 @@
+html, body {
+  margin: 0;
+  padding: 20px;
+  height: 100%;
+  min-height: 100%;
+  font: 1.05rem/1.35 'Nunito', serif;
+  background-color: #dddddd;
+  color: #4d4d4d;
+}
+
+h1, h2, h3, h4, p {
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  display: block;
+  margin: auto;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  height: 7rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.foto-contacts-skills {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  background-color: #d2d2d2;
+  min-width: 300px;
+}
+
+.contacts a {
+  text-decoration: none;
+  color: #000000;
+}
+
+.contacts li {
+  color: #777;
+  list-style-type: none;
+}
+
+.contacts li:hover {
+  color: #ffe;
+  background-color: gray;
+}
+
+.block-skills {
+  font-size: 0.55rem;
+  font-weight: bold;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  min-width: 300px;
+  padding: 5px;
+}
+
+.about {
+  min-width: 300px;
+  margin: 1px 0 0 0;
+  background-color: #d2d2d2;
+}
+
+.about-padding {
+  padding: 20px;
+}
+
+.work-experience {
+  font-size: 0.9rem;
+  min-width: 300px;
+  margin-top: 5px;
+  background-color: #d2d2d2;
+}
+
+.work-experience-padding {
+  padding: 10px 20px 5px 20px;
+}
+
+footer {
+  font-size: 0.7rem;
+}
+
+/* .aboutme div:nth-child(3) {
+    flex-grow: 1;
+    min-width: 300px;
+} */
+/* @media (min-width: 640px) {
+    .aboutme {
+        flex-basis: calc((100% / 2) - 1rem); // 2 across at tabletish
+    }
+}
+@media (min-width: 1024px) {
+    .aboutme {
+        flex-basis: calc((100% / 3) - 2rem); // 3 across at desktop
+    }
+} */
+/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,27 @@
+.surname {
+  color: #000000;
+  font-size: 5vw;
+}
+
+.position {
+  font-size: 1.8vw;
+  position: relative;
+  top: -0.6em;
+}
+
+.foto {
+  -webkit-box-flex: 0;
+      -ms-flex-positive: 0;
+          flex-grow: 0;
+  padding: 5px;
+}
+
+.video {
+  height: 250px;
+}
+
+.myself {
+  padding: 20px 15px;
+  min-width: 300px;
+}
+/*# sourceMappingURL=large.css.map */

@@ -1,11 +1,12 @@
+@import 'variables';
 html, body {
     margin: 0;
     padding: 20px;
     height: 100%;
     min-height: 100%;
     font: 1.05rem/1.35 'Nunito', serif;
-    background-color: #dddddd;
-    color: #4d4d4d;
+    background-color: $body-background-color;
+    color: $text-color;
 }
 h1, h2, h3, h4, p {
     margin: 0;
@@ -31,7 +32,7 @@ header {
 .foto-contacts-skills {
     display: flex;
     flex-flow: row wrap;
-    background-color: #c4c4c4;
+    background-color: $block-background-color;
     min-width: 300px;
 }
 .contacts a{
@@ -57,7 +58,7 @@ header {
 .about {
     min-width: 300px;
     margin: 1px 0 0 0;
-    background-color: #c4c4c4;
+    background-color: $block-background-color;
 }
 .about-padding {
     padding: 20px;
@@ -67,7 +68,7 @@ header {
     font-size: 0.9rem;
     min-width: 300px;
     margin-top: 5px;
-    background-color: #c4c4c4;
+    background-color: $block-background-color;
 }
 .work-experience-padding {
     padding: 10px 20px 5px 20px;

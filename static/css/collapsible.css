@@ -1,0 +1,53 @@
+.collapsible {
+  width: 100%;
+  background-color: #d2d2d2;
+  color: #4d4d4d;
+  cursor: pointer;
+  padding: 5px 20px;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 0.9rem;
+}
+
+.active, .collapsible:hover {
+  background-color: #777;
+}
+
+.collapsible:after {
+  content: '\002B';
+  color: #4d4d4d;
+  float: right;
+  margin-left: 5px;
+}
+
+.active:after {
+  content: "\2212";
+}
+
+.content {
+  padding: 0 18px;
+  max-height: 0;
+  overflow: hidden;
+  -webkit-transition: max-height 0.2s ease-out;
+  transition: max-height 0.2s ease-out;
+  background-color: #d2d2d2;
+}
+
+.gallery {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  gap: 10px;
+  padding: 0 18px;
+  max-height: 0;
+  overflow: hidden;
+  -webkit-transition: max-height 0.2s ease-out;
+  transition: max-height 0.2s ease-out;
+  background-color: #d2d2d2;
+}
+/*# sourceMappingURL=collapsible.css.map */

@@ -1,7 +1,8 @@
+@import 'variables';
 .collapsible {
     width: 100%;
-    background-color: #c4c4c4;
-    color: #4d4d4d;
+    background-color: $block-background-color;
+    color: $text-color;
     cursor: pointer;
     padding: 5px 20px;
     border: none;
@@ -16,7 +17,7 @@
   
   .collapsible:after {
     content: '\002B';
-    color: #4d4d4d;
+    color: $text-color;
     float: right;
     margin-left: 5px;
   }
@@ -30,7 +31,7 @@
     max-height: 0;
     overflow: hidden;
     transition: max-height 0.2s ease-out;
-    background-color: #c4c4c4;
+    background-color: $block-background-color;
   }
   .gallery {
     display: flex;
@@ -40,5 +41,5 @@
     max-height: 0;
     overflow: hidden;
     transition: max-height 0.2s ease-out;
-    background-color: #c4c4c4;
+    background-color: $block-background-color;
   }

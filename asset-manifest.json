@@ -1,15 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.1c6c41de.css",
-    "main.js": "/static/js/main.9dbf35ec.js",
-    "static/media/weather.png": "/static/media/weather.93e02da373d52387a13e.png",
-    "static/media/foto_mono_4x.jpg": "/static/media/foto_mono_4x.21ba4c9fbd510f13fcc7.jpg",
+    "main.css": "/static/css/main.18a2497b.css",
+    "main.js": "/static/js/main.d75e7ec5.js",
+    "static/media/foto_mono.jpg": "/static/media/foto_mono.5057352ff301f6ffa65e.jpg",
+    "static/media/great_sea_battle.jpg": "/static/media/great_sea_battle.fae091f335025cbf8f1c.jpg",
+    "static/media/weather.jpg": "/static/media/weather.4d2def98b14cfe9b8022.jpg",
+    "static/media/tic-tac-toe.png": "/static/media/tic-tac-toe.7ba049054c65cb8a12da.png",
     "index.html": "/index.html",
-    "main.1c6c41de.css.map": "/static/css/main.1c6c41de.css.map",
-    "main.9dbf35ec.js.map": "/static/js/main.9dbf35ec.js.map"
+    "main.18a2497b.css.map": "/static/css/main.18a2497b.css.map",
+    "main.d75e7ec5.js.map": "/static/js/main.d75e7ec5.js.map"
   },
   "entrypoints": [
-    "static/css/main.1c6c41de.css",
-    "static/js/main.9dbf35ec.js"
+    "static/css/main.18a2497b.css",
+    "static/js/main.d75e7ec5.js"
   ]
 }

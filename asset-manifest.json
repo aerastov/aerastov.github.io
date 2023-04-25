@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.18a2497b.css",
-    "main.js": "/static/js/main.571cbd38.js",
+    "main.js": "/static/js/main.8059d259.js",
     "static/media/foto_mono.jpg": "/static/media/foto_mono.5057352ff301f6ffa65e.jpg",
     "static/media/News_Portal.jpg": "/static/media/News_Portal.15c3b7993129dd590992.jpg",
     "static/media/great_sea_battle.jpg": "/static/media/great_sea_battle.fae091f335025cbf8f1c.jpg",
@@ -9,10 +9,10 @@
     "static/media/tic-tac-toe.png": "/static/media/tic-tac-toe.7ba049054c65cb8a12da.png",
     "index.html": "/index.html",
     "main.18a2497b.css.map": "/static/css/main.18a2497b.css.map",
-    "main.571cbd38.js.map": "/static/js/main.571cbd38.js.map"
+    "main.8059d259.js.map": "/static/js/main.8059d259.js.map"
   },
   "entrypoints": [
     "static/css/main.18a2497b.css",
-    "static/js/main.571cbd38.js"
+    "static/js/main.8059d259.js"
   ]
 }

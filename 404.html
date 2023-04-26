@@ -1,11 +1,12 @@
-<script>
-  var redirectUrl = window.location.pathname;
-  if (redirectUrl !== '/' && redirectUrl.slice(-1) === '/') {
-    redirectUrl = redirectUrl.slice(0, -1);
-  }
-  var baseUrl = 'https://aerastov.github.io';
-  var fullUrl = baseUrl + redirectUrl;
-  if (window.location.href !== fullUrl) {
-    window.location.href = fullUrl;
-  }
-</script>
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Page Not Found</title>
+</head>
+<body>
+  <script>
+    window.location.href = "/index.html";
+  </script>
+</body>
+</html>

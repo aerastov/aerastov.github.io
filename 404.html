@@ -3,5 +3,9 @@
   if (redirectUrl !== '/' && redirectUrl.slice(-1) === '/') {
     redirectUrl = redirectUrl.slice(0, -1);
   }
-  window.location.href = 'https://aerastov.github.io' + redirectUrl;
+  var baseUrl = 'https://aerastov.github.io';
+  var fullUrl = baseUrl + redirectUrl;
+  if (window.location.href !== fullUrl) {
+    window.location.href = fullUrl;
+  }
 </script>
